@@ -1,0 +1,155 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+	background-color:#F1FAEE;	
+}
+
+
+.cdimg{
+	background-image:url('../images/main.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	float:right;
+	height:500px;
+	width:100%;
+}
+
+
+#chimg{
+	display:block;
+	color:#F1FAEE;
+	font-family: 'Patrick Hand', cursive;
+	font-size:50px;
+	text-align:center;
+	margin-right:30%;
+	margin-left:35%;
+	margin-top:15%;
+	border-bottom:5px solid #E63946;
+}
+
+
+.container{
+	float:left;
+	padding:20px 30px;
+	position:relative;
+}
+
+
+/*The "margin:auto" should takes up the available left and right space of the element, and hence center the element*/
+
+
+#contact {
+	margin:auto;
+}
+
+
+#contact h1{
+	border-bottom:3px solid #E63946;
+}
+
+
+h1{
+  text-align:center;	
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+/*"display:inline-block" sets the formatting of an element as an inline element but height and width can be applied to it just like a block element*/
+
+
+input[type="text"], input[type="email"], textarea {
+	display:inline-block;
+  border: 2px solid #E63946;
+  border-radius: 4px;
+	padding:15px;
+	margin:5px;
+}
+
+
+input[type="submit"]{
+	display:inline-block;
+	border-radius: 4px;
+	padding:15px;
+	margin:5px;	
+	border: 2px solid #457B9D;
+}
+
+
+#fname, #lname{
+	width:300px;
+}
+
+
+#email, #subject, #message, #sendmess{
+	width:615px;
+}
+
+
+#sendmess{
+	background-color:#457B9D;
+	color:white;
+}
+
+
+#sendmess:hover{
+	background-color:#8DA9C4;
+	color:#1D3557;
+}
+
+
+.our-info{
+	background-color:#A8DADC;
+	margin:auto;
+	float:right;
+	padding:80px 180px;
+	display:block;
+}
+
+ 
+.our-info h1{
+	font-size:40px;
+	font-family: 'Patrick Hand', cursive;
+	display:block;
+	text-align:center;
+	border-bottom:3px solid #E63946;
+}
+
+
+.our-info h1:hover{
+	border-bottom:5px solid #E63946;
+	color:#1d3557;
+}
+
+
+.Raj-info{
+	padding:30px;	
+}
+
+
+.Raj-info p{
+	font-size:20px;
+}
+
+
+.Raj-info:hover{
+	border:2px solid #E63946;
+	padding:28px;
+	background-color:#F1FAEE;
+}
+
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+

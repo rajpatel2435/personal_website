@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/nav.css">
+	<link rel="stylesheet" href="../css/contact.css">
+	
+    <link rel="stylesheet" href="../css/raj-info.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<meta name="author" content="Raj ">
+	<meta name="description" content="Contact us page of our Final Project">
+</head>
+
+<body>
+
+
+	<header>
+
+		<div  style="position: fixed;background-color:black;width:100%">
+			<nav class="navbar">
+				<a href="index.html" class="nav-branding" style="color: white;text-decoration:none;border-left: 10px solid green;">Raj's web</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">home</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">Services</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="projects.html" class="nav-link">Mes projets</a>
+					  </li>
+					<li class="nav-item">
+						<a href="../html/Fr/contact.html" class="nav-link">French</a>
+					  </li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</div>
+
+		<div class="cdimg">
+
+			<h2 id="chimg">Contact Us</h2>
+
+		</div>
+
+	</header>
+
+
+
+	<main>
+
+		<div class="container">
+
+				<form action="https://postmail.invotes.com/send" method="post" id="email_form contact">
+
+				<h1>Get in Touch!</h1>
+
+				<br>
+
+				<label for="fname"></label>
+				<input type="text" name="firstname" id="fname" placeholder="Enter First Name" required>
+
+				<label for="lname"></label>
+				<input type="text" name="lastname" id="lname" placeholder="Enter Last Name" required>
+
+				<br><br>
+
+
+				<label for="email"></label>
+				<input type="email" name="email" id="email" placeholder="Enter email address" required>
+
+				<br><br>
+
+				<label for="subject"></label>
+				<input type="text" name="subject" id="subject" placeholder="Enter the subject of the message" required>
+
+				<br><br>
+
+				<textarea id="message" name="message" rows="8" cols="50" placeholder="Enter Message"
+					required></textarea>
+
+				<br><br>
+
+				<input type="hidden" name="access_token" value="n890x420cpano3uj99x410ut" />
+    				<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    				<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+					
+				
+
+				<input type="submit" id="sendmess" value="Submit">
+
+			</form>
+
+		</div>
+
+		<div class="our-info">
+
+			<a href="raj-info.html">
+
+				<div class="Raj-info">
+
+					<h1>Raj Patel</h1>
+					<br>
+
+					<p><i class="material-icons" style="font-size:18px">mail</i>
+						rajpatel2435@gmail.com</p>
+
+					<p><i class="fa fa-mobile" style="font-size:24px;"></i>
+		
+						+1 5146992435</p>
+
+				</div>
+
+			</a>
+
+		</div>
+
+	</main>
+
+
+<footer>Design by Raj</footer>
+<script>
+	
+		var submitButton = document.getElementById("submit_form");
+		var form = document.getElementById("email_form");
+		form.addEventListener("submit", function (e) {
+			setTimeout(function() {
+				submitButton.value = "Sending...";
+				submitButton.disabled = true;
+			}, 1);
+		});
+	</script>
+	<script src="../Js/nav.js"></script>
+
+</body>
+
+</html>

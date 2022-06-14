@@ -1,0 +1,158 @@
+.container {
+  position: relative;
+  margin-top: 20px;
+  height: 150px;
+  width: 100%;
+  background-color: #00171f;
+  color: white;
+}
+
+.right p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.slide {
+  padding: 55px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+
+}
+
+.slide p {
+  margin-left: 120px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 35%;
+  width: auto;
+  color: wheat;
+  padding: 10px;
+  background-color: green;
+  cursor: pointer;
+ font-weight: bolder;
+}
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(218, 22, 22);
+    color: white;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#project {
+  width: 80%;
+  height: 550px;
+  position: relative;
+  margin: 0px auto;
+}
+.project1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.col1 {
+  flex-basis: 32%; /*it contains 32% width */
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.col1:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transition: 1s;
+}
+
+.col1 img {
+  width: 100%;
+  height: 80%;
+}
+
+.layer {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: linear-gradient(3deg, black, black 3%, transparent);
+}
+
+.layer h3 {
+  width: 100%;
+
+  font-size: 30px;
+  font-weight: 300;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  #project {
+    width: 400px;
+    height: 100%;
+  }
+  .project1 {
+    flex-direction: column;
+  }
+  .col1 {
+    margin-left: 60px;
+    height: 100%;
+  }
+  .col1 img {
+    width: 80%;
+    height: 100%;
+  }
+  .layer {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+   .slide{
+       
+       font-size: 20px;
+       margin-left: -50px;
+       padding: 45px;
+      
+   }
+  }

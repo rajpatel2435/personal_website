@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  background-color:#F1FAEE;	
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+#titleintro h1{
+  font-family: 'Patrick Hand', cursive;
+	text-align:center;
+	border-bottom: 5px solid #E63946;
+	margin-left:43%;
+	margin-right:38%;
+	display:block;
+	padding:5px;
+}
+
+
+.adimg{
+	background-image:url('../images/main.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	float:right;
+	height:500px;
+	width:100%;
+}
+
+
+#apimg{
+	display:block;
+	color:#F1FAEE;
+	font-family: 'Patrick Hand', cursive;
+	font-size:50px;
+	text-align:center;
+	margin-right:30%;
+	margin-left:35%;
+	margin-top:15%;
+	border-bottom: 5px solid #E63946;
+}
+
+
+.container{
+	background-color:#F1FAEE;
+	display:block;
+}
+
+
+.container a{
+	text-decoration:none;
+}
+
+
+#Rajimg{
+	border: 5px solid #E63946;
+  height:400px;
+  background-color:#F1FAEE;
+	float:right;
+	display:block;
+	margin:12px 150px;
+  margin-right:175px;
+}
+
+
+#Raj-info{
+	width:664px;
+	float:left;
+	position:relative;
+	display:block;
+	padding:8% 10%;
+}
+
+
+#Raj-info h2{
+	font-size:50px;
+	font-family: 'Patrick Hand', cursive;
+	border-bottom: 5px solid #E63946;	
+	color:#125688;
+}
+
+
+#Raj-info h2:hover {
+	color:#E63946;
+}
+
+
+#Raj-info cite {
+	margin:5px;
+	font-size:19px;
+	color:black;
+}
+
+#Raj-info p{
+	font-size:32px;
+}
+
+
+.ifr{
+
+	margin-left: 200px;
+	padding: 50px;
+	padding-bottom: 15px;
+}
+
+.ifr h1{
+	color: #000;
+	margin-bottom: 20px;
+	margin-left: 200px;
+}

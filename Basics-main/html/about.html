@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/about.css">
+	
+  
+	<link rel="stylesheet" href="../css/slider.css">
+	
+    <link rel="stylesheet" href="../css/nav.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="author" content="Raj ">
+	<meta name="description" content="About-Us page of our Final Project">
+	<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+td, th {
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-weight: 900;
+}
+th{
+	background-color: chartreuse;
+}
+
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+
+		<div  style="position: fixed;background-color:black;width:100%">
+			<nav class="navbar">
+				<a href="index.html" class="nav-branding" style="color: white;text-decoration:none;border-left: 10px solid green;">Raj's web</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">home</a>
+					</li>
+				
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">Services</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="projects.html" class="nav-link">Mes projets</a>
+					  </li>
+					<li class="nav-item">
+						<a href="../html/Fr/environ.html" class="nav-link">French</a>
+					  </li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</div>
+
+		<div class="adimg">
+
+			<h2 id="apimg">Services</h2>
+
+		</div>
+
+	</header>
+
+
+	<main>
+
+		<div id="titleintro">
+			<h1>OUR SERVICES</h1>
+		</div>
+		<!-- SlideShow -->
+
+		<div class="container">
+			
+			<div class="slide fade">
+			 <P ><span style="color:yellow"><b>Internet related services</b></span> Offering various services usch as domain name,website registration an so on</P>
+			</div>
+			<a class="prev" onclick="preSlide(-1)">&#10094;</a>
+			<div class="slide fade">
+			  <P><span style="color:red"><b>Web Developer</b></span> We help you to make the website for your business</P>
+			</div>
+			<div class="slide fade">
+			  <P><span style="color:green"><b>Course</b></span> We are prepared course for stuent who wants to learn web development</P>
+			</div>
+
+			<!-- Project area -->
+
+		
+			<a class="next" onclick="preSlide(1)" style="margin-top:0 ;">&#10095;</a>
+	
+
+			
+				<div class="ifr" style="margin-left: 350px;">
+					<h1>Iframe Example</h1>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/5YDVJaItmaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+				</div>
+
+				<div style="padding: 100px;color: black;">
+					<h1 style="margin-left: 350px;">My skills</h1>
+					<table>
+					  <tr>
+						<th>Skills</th>
+						<th>Level</th>
+					  </tr>
+					  <tr>
+						<td>HTML</td>
+						<td>Advance</td>
+					  </tr>
+					  <tr>
+						<td>CSS</td>
+						<td>Intermediate</td>
+					  </tr>
+					  <tr>
+						<td>REACT-JS</td>
+						<td>Beginner</td>
+					  </tr>
+					</table>
+				  </div>
+	
+
+
+			
+
+
+		</div>
+
+	</main>
+<!-- Footer -->
+	<footer id="footer">
+		<div class="" style="display: flex; justify-content: space-around">
+		  <div >
+		  <p style="border-bottom: 5px solid red;font-size: 20px;"> Contact Me</p>
+			<br>
+			<a href="https://www.instagram.com/_raj_patel35/" class="fa fa-instagram" style="padding:10px;width: 35px;"></a>
+			<a href="https://www.youtube.com/channel/UCpWE_Y4bKC2hwJph1UzwqPg" class="fa fa-youtube" style="padding:10px;width: 35px;"></a>
+			<a href="https://github.com/rajpatel2435" class="fa fa-github" style="background-color: black;padding:10px;width: 35px;"></a>
+		  </div>
+  
+		  <div >
+			<pre><b style="border-bottom: 5px solid green;font-size: 20px;">  Location  </b>
+  <p style="margin-top: -10px;">5720, Boulevar Decarie,
+  Montreal, QC	
+  </p></pre>
+		  </div>
+		  <pre>
+		<p ><i class="material-icons" style="font-size:18px;margin-top: 10px;">mail</i><a href="mailto:rajpatel2435@gmail.com" style="color: white;"> rajpatel2435@gmail.com</a></p>
+		</div>
+	  <div style="border: 1px solid rgb(182, 209, 187);width:50%;margin-left:300px;border-radius:20px;margin-top: -15px;"></div>
+	  <div style="font-family:tahoma;font-size:15px;margin-left: -40px;">
+		Copyright © and Design By Raj 
+	  </div>
+	  </footer>
+
+
+	<script src="../Js/slider.js"> </script>
+	 	<script src="../Js/nav.js"></script>
+
+
+</body>
+
+</html>
